@@ -1,21 +1,22 @@
 {
-    "name": "deployforcyclic",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
-        "start": "node NodeCyclic/server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/galuathancongz/deployforcyclic.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/galuathancongz/deployforcyclic/issues"
-    },
-    "homepage": "https://github.com/galuathancongz/deployforcyclic#readme"
-},
+        "name": "starter-express-api",
+        "version": "1.0.0",
+        "description": "",
+        "main": "index.js",
+        "scripts": {
+            "start": "node NodeCyclic/server.js"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+        },
+        "author": "",
+        "license": "ISC",
+        "bugs": {
+            "url": "https://github.com/cyclic-software/starter-express-api/issues"
+        },
+        "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
+        "dependencies": {
+            "express": "^4.18.2"
+        }
 }
