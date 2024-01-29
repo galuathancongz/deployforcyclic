@@ -1,5 +1,21 @@
 {
+    "name": "deployforcyclic",
+    "version": "1.0.0",
+    "description": "",
     "scripts": {
-        "start": "node NodejsWebApp/server.js"
-    }
+        "build": "echo \"No build specified\" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
+        "start": "node NodeCyclic/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/galuathancongz/deployforcyclic.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/galuathancongz/deployforcyclic/issues"
+    },
+    "homepage": "https://github.com/galuathancongz/deployforcyclic#readme"
+},
 }
